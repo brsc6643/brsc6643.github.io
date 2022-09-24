@@ -1,0 +1,104 @@
+body {
+    border: 2px solid #56CCF2;
+    padding: 50px;
+}
+
+h1 {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 157px;
+color: #FEB326;
+}
+
+h2 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 97px;
+color: #E84D8A;
+}
+
+h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 77px;
+color: #FEB326;
+}
+
+h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+color: #E84D8A;
+}
+h5{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 53px;
+
+color: #FEB326;
+}
+h6 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: #56CCF2;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #7F58AFB2;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #E84D8A;
+    ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FEB326;
+  }
+
+/* Blue 3 */
+
+.button:hover {
+    background-color: #7F58AF; /* purple */
+    color: white;
+  }
+
+  .button {
+    background-color: #56CCF2;
+    border: 1px solid #56CCF2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+  }
+
+  .button:active {
+    background-color: #56CCF2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  ul {
+    list-style-type: square;
+  }
+
