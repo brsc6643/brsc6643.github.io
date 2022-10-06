@@ -1,11 +1,12 @@
 body {
     border: 2px solid #56CCF2;
     padding: 50px;
+    background-color: #fafafa
 }
 
 h1 {
 
-font-family: 'Inter';
+font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 70px;
@@ -16,7 +17,7 @@ width: auto;
 }
 
 h2 {
-    font-family: 'Inter';
+    font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
@@ -25,7 +26,7 @@ color: #E84D8A;
 }
 
 h3 {
-    font-family: 'Inter';
+    font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
@@ -34,7 +35,7 @@ color: #FEB326;
 }
 
 h4 {
-    font-family: 'Inter';
+    font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 50px;
@@ -43,7 +44,7 @@ line-height: 61px;
 color: #E84D8A;
 }
 h5{
-    font-family: 'Inter';
+    font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 44px;
@@ -52,12 +53,22 @@ line-height: 53px;
 color: #FEB326;
 }
 h6 {
-font-family: 'Inter';
+font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 44px;
 color: #56CCF2;
+}
+
+.experience {
+  font-family: 'Raleway';
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+p {
+  font-family: 'Raleway';
 }
 
 /* unvisited link */
@@ -86,35 +97,40 @@ a:link {
 img {
   float: right;
 }
-.button:hover {
-    background-color: #7F58AF; /* purple */
+.btn-group:hover {
+    background-color: #FEB326; /* purple */
     color: white;
   }
 
-  button {
+  .btn-group {
     background-color: #56CCF2;
     border: 1px solid #56CCF2;
+    font-family: 'Comfortaa';
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 80px;
     list-style: none;
     max-width: 20em;
     align-items: center;
-    justify-content: center;
-    position: center;
+    justify-items: center;  
   }
 
-  .button:active {
+  .btn-group:active {
     background-color: #56CCF2;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
   ul {
-    list-style-type: square;
+    list-style-type: none;
     display: grid;
+  }
+
+  ul.experience {
+    list-style-type: square;
   }
 
   ol {
     display: grid;
+    list-style-type: none;
   }
 
   nav {
@@ -124,6 +140,7 @@ img {
     top: 0;
     margin: 4px;
     display: flex;
+    font-family: 'Comfortaa';
     justify-content: space-evenly;
     max-height: 1em;
     position: sticky;
@@ -147,32 +164,33 @@ img {
     color: #FEB326;
   }
 
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .courses {
+    list-style-type: disc;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
   /*desktop*/
   @media screen and (min-width: 1900px) and (min-height: 1100px) {
-    nav, nav ul, nav a {
-      display: flexbox;
+
+    .flexbox{
+      display: flex;
     }
-    button {
-      float: center; /* Float the buttons side by side */
-      display: flexbox;
-      width: 400px;
-    }
-    ul {
-      float: none;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 10%;
-      text-align: center;
-    }
-    ol {
-      float: none;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 10%;
-      text-align: center;
+
+    .btn-group{
+      border-radius: 15px;
+      justify-content: space-evenly;
+
     }
     }
   
