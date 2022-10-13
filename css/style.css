@@ -4,6 +4,7 @@ body {
     background-color: #fafafa
 }
 
+
 h1 {
 
 font-family: 'Comfortaa';
@@ -84,7 +85,6 @@ a:link {
   /* mouse over link */
   a:hover {
     color: #E84D8A;
-    ;
   }
   
   /* selected link */
@@ -114,12 +114,10 @@ img {
     margin-left: auto;    
     margin-right: auto;
     align-items: center;
-    align
   }
 
   .btn-group:active {
-    background-color: 
-    #56CCF2;
+    background-color: #56CCF2;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
