@@ -14,12 +14,12 @@ const insertX = ["Babo the Clown",
 ,"Sugar Mommy the Girlboss"
 ,"The Great Oompa Loompa King"];
 
-const insertY = ["the edge of all things that are known",
+const insertY = ["the edge of all things",
 "magic fantasy gumdrop land",
 "Shake Shack"];
 
-const insertZ = ["grew fangs and wings and flew away into the sunset",
-"intensly transormed back into a three year old child",
+const insertZ = ["flew away into the sunset",
+"instensly melted",
 "removed a golf club from an unknown orefice"];
 
 
