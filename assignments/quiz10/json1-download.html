@@ -54,12 +54,12 @@
             }
         }
 
-      if (i < (cats.length -1)) {
-        motherInfo += `${ cats[i].name }, `;
-      }
-      else {
-        motherInfo += `and ${ cats[i].name }.`;
-      }
+        if (i < (cats.length - 1)) {
+          motherInfo += `${ cats[i].name }, `;
+       }
+        else {
+          motherInfo += `and ${ cats[i].name }.`;
+        }
     }
 
     kittenInfo = `There are ${ total } kittens in total, ${ male } of which are males.`;
