@@ -1,5 +1,5 @@
-const quoteButton = document.querySelector('.new-quote');
-const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
+const quoteButton = document.querySelector('.btn-group');
+const endpoint = 'http://quotes.stormconsultancy.co.uk/random.json';
 
 quoteButton.addEventListener('click', getQuote);
 
@@ -12,12 +12,12 @@ async function getQuote() {
     let json_response = JSON.parse(response);
     //let message = response['message'];
     console.log(json_response);
-    console.log(json_response['message']);
+    console.log(json_response['quote']);
     //.then(text => text.text())
     //.then(y -> myDisplay(y));
     //console.log(text['message']);
 
-    displayQuote(json_response['message']);
+    displayQuote(json_response['quote']);
 }
 
 function displayQuote(x) {
@@ -29,3 +29,22 @@ function displayQuote(x) {
 }
 
 //getQuote();
+
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
