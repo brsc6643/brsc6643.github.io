@@ -1,3 +1,4 @@
+/*
 console.log("JS Connected");
 
 //snake implementation
@@ -200,3 +201,4 @@ const playWave = head => {
         }, 10 * index);
     });
 }
+*/
