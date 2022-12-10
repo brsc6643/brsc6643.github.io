@@ -13,17 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <!-- link JS-->
         <script src="/js/script.js"></script> 
-    <title> Home Page </title>  
+    <title> Contact </title>  
   </head>
     <body>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="https://www.linkedin.com/in/broderick-schmidt-9b9836149">LinkedIn</a>
-          <a href="games.html">Games</a>
-          <a href="resume.html">Resume</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="education.html">Education</a>
-          <a href="contact.html">Contact</a>
+              <a href="index.html">Home</a>
+              <a href="https://www.linkedin.com/in/broderick-schmidt-9b9836149">LinkedIn</a>
+              <a href="games.html">Games</a>
+              <a href="resume.html">Resume</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="education.html">Education</a>
+              <a href="contact.html">Contact</a>
         </nav>
         <img src="img/headshot.jpg" alt="Headshot" width="220" height="200">
 
@@ -33,7 +33,15 @@
         </h2>
 <hr>
 <center>
-<embed src="assets/BroderickSchmidtResume.pdf" id ="resume"></embed>
+    <section id="contact-form">
+        <h5>Contact</h5>
+        <form id="contact" name="contact" accept-charset="utf-8">
+          <label><span>Name: </span><input name="name" type="text" placeholder="Name"/></label>
+          <label><span>Email: </span><input name="email" type="email" placeholder="Email"/></label>
+          <label><span>Message: </span><textarea name="message" placeholder="Message"></textarea></label>
+          <input name="submit" type="submit" value="Send"/>
+        </form>
+      </section>
 </center>
 </body>
 </html>
