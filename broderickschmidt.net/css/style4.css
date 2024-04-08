@@ -1,0 +1,14 @@
+body {
+    background-color: #0A3D62;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav a, h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #7BFF33;
+}
+
+h1, h2 {
+    font-weight: 700;
+}

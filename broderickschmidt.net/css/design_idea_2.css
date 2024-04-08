@@ -1,0 +1,24 @@
+
+body {
+    padding: 50px;
+    background-color: #F5F5DC;
+    color: #2F4F4F;
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    color: #FF7F50;
+}
+
+nav a {
+    color: #FF7F50;
+}
+
+button {
+    background-color: #FF7F50;
+    color: #F5F5DC;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Additional styles from oldstyle.css can be included here */

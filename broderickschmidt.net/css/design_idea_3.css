@@ -1,0 +1,24 @@
+
+body {
+    padding: 50px;
+    background-color: #36454F;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFD700;
+}
+
+nav a {
+    color: #FFD700;
+}
+
+button {
+    background-color: #FFD700;
+    color: #36454F;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Additional styles from oldstyle.css can be included here */
