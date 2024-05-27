@@ -1,0 +1,14 @@
+body {
+    background-color: #4B0082;
+    color: #FFD700;
+    font-family: 'Times New Roman', serif;
+}
+
+nav a, h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #FFFFF0;
+}
+
+h1, h2 {
+    font-weight: bold;
+}

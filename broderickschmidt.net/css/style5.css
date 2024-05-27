@@ -1,0 +1,14 @@
+body {
+    background-color: #333F48;
+    color: #F5F5F5;
+    font-family: 'Lora', serif;
+}
+
+nav a, h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #DAA520;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
