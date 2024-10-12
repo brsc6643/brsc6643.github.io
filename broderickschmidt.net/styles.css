@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+#loader {
+    position: absolute; /* Use absolute position so it only covers the intro box*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.85); /* Dark gray */
+    border-radius: 10px; /* Match the intro box's rounded corners */
+}
+
+.spinner {
+    border: 16px solid #f3f3f3; /* Light gray */
+    border-top: 16px solid #0F0; /* Light green */
+    border-radius: 50%;
+    width: 80;
+    height: 80;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Matrix-like effect */
+.matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    z-index: -1;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Centers the canvas horizontally */
+    align-items: center;     /* Centers the canvas vertically */
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* White box container for readability */
+.content-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    position: relative; /* Set relative positioning so that the loader's absolute positioning will be on top */
+    opacity: 1;
+    transition: opacity 2s ease-in-out
+}
+
+/* Box for visible intro box after animation */
+.intro-box-visible #intro-content {
+    display: block;
+    opacity: 1;
+}
+
+/* Default intro-content that is hidden */
+#intro-content {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro {
+    padding: 50px 20px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Hook text */
+#hook {
+    font-size: 2em;
+    color: black;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #f9f9f9;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: white;
+    margin: 0 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

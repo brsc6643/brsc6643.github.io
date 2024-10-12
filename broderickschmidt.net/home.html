@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Broderick Schmidt - Portfolio</title>
+    
+    <!-- Connect to FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Matrix Animation Background -->
+    <div class="matrix">
+        <canvas id="matrix"></canvas>
+    </div>
+
+    <!-- Implement header with tab links -->
+    <header>
+        <h1>Broderick Schmidt</h1>
+        <nav>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Resume</a>
+        </nav>
+    </header>
+
+
+    <!-- New section for intro content -->
+        <section class="intro content-box" id="intro-box" style="display:none;">
+            <!-- Put spinner inside the loader inside the intro content-box -->
+            <div id = "loader">
+                <div class="spinner"></div>
+            </div>    
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Broderick, a software developer focused on Artificial Intelligence and cloud technologies. Explore my projects and feel free to reach out!</p>
+        </section>
+    </section>
+
+    <!-- Project info -->
+    <section class="projects content-box">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio website to showcase my skills and projects.</p>
+            </div>
+            <div class="project">
+                <h3>Handwritten Digit Classifier</h3>
+                <p>A neural network model trained to recognize handwritten digits using TensorFlow and PyTorch.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact content-box">
+        <h2>Get In Touch</h2>
+        <a href="mailto:broderickschmidt9@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yourgithubprofile"><i class="fab fa-github"></i></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Broderick Ryan Schmidt. All rights reserved.</p>
+    </footer>
+    
+    <!-- Connect JS -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
