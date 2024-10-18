@@ -16,37 +16,23 @@
 
 <body>
 
-    <!-- Matrix Animation Background -->
+    <!-- Matrix Effect Background (Optional, can be removed if you don't want the matrix effect on this page) -->
     <div class="matrix">
         <canvas id="matrix"></canvas>
     </div>
 
-    <!-- Implement header with tab links -->
+    <!-- Header with navigation links -->
     <header>
         <h1><a href = "home.html">Broderick Schmidt</a></h1>
         <nav>
-            <a href="about.html">About Me</a>
-            <a href="#">Projects</a>
-            <a href="#">Resume</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
         </nav>
     </header>
-
-
-    <!-- New section for intro content -->
-        <section class="intro content-box" id="intro-box">
-            <!-- Put spinner inside the loader inside the intro content-box -->
-            <div id = "loader">
-                <div class="spinner"></div>
-            </div>    
-            <!-- Content to be displayed after loader animation -->
-            <div id = "intro-content" syle = "display:none;">
-                <h1>Welcome to My Portfolio</h1>
-                <p>I'm Broderick, a software developer focused on Artificial Intelligence and cloud technologies. Explore my projects and feel free to reach out!</p>
-            </div>
-        </section>
-    </section>
-
-    <!-- Project info -->
+   
+   
+   <!-- Project info -->
     <section class="projects content-box">
         <h2>Projects</h2>
         <div class="project-list">
@@ -75,5 +61,3 @@
     <!-- Connect JS -->
     <script src="scripts.js"></script>
 </body>
-
-</html>
