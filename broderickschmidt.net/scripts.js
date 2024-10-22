@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         introContent.style.opacity = "1" // Update the intro content's opacity for a fade in
         introBox.style.display = "block"; // Show the intro box
         introBox.classList.add("intro-box-visible"); // Add fade-in effect
-    }, 3000);
+    }, 500);
 });
 
 // Matrix Background Effect Script
